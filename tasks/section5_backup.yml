@@ -1175,6 +1175,7 @@
   changed_when: no
   when:
     - centos7cis_level2 is defined and centos7cis_level2
+#    - centos7cis_ensure_system_accounts_are_non_login is defined and centos7cis_ensure_system_accounts_are_non_login
   tags:
     - level2
     - patch
@@ -1187,6 +1188,7 @@
     executable: /bin/bash
   when:
     - centos7cis_level2 is defined and centos7cis_level2
+#    - centos7cis_ensure_system_accounts_are_non_login is defined and centos7cis_ensure_system_accounts_are_non_login
   tags:
     - level2
     - patch
@@ -1202,6 +1204,7 @@
   changed_when: no
   when:
     - centos7cis_level2 is defined and centos7cis_level2
+#    - centos7cis_ensure_system_accounts_are_non_login is defined and centos7cis_ensure_system_accounts_are_non_login
   tags:
     - level2
     - patch

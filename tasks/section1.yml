@@ -338,7 +338,7 @@
   args:
    executable: /usr/bin/bash
   when:
-    - centos7cis_level1 is defined and centos7cis_level1
+    - centos7cis_level2 is defined and centos7cis_level2
   tags:
     - level1
     - patch

@@ -1,5 +1,5 @@
 ---
-- hosts:  all
+- hosts:  localhost
   become: yes
   become_method: sudo
   gather_facts: true
@@ -8,7 +8,7 @@
     ignore_unreachable: true
   roles:
 # Match role folder name here - CentOS7-CIS
-    - role: CentOS7-CIS
+    - role: /home/trakomatic-user/CentOS7-CIS
   tags:
     - always
     - prelim_tasks
